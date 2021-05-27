@@ -1,0 +1,61 @@
+#FIRSt METHOD IN FUNCTION
+ 
+ def add(a,b):
+   sum=a+b
+     return sum
+ def sub(c,d):
+     sub=c-d
+     return sub
+ def mul(e,f): 
+     mul=e*f
+    return mul
+ def div(g,h): 
+    div=g/h
+    return div
+     print(add(20,25))
+print(sub(40,3))
+ print(mul(10,4))
+ print(div(40,4))
+print(add(20,25),sub(40,3),mul(10,4),(40,4))
+
+
+#SECOND METHOD IN FUNCTION
+
+
+def add (num1,num2,symbol):
+    sum=num1+num2
+    return sum
+def sub(num1,num2,symbol):
+    sub=num1-num2
+    return sub
+def mul(num1,num2,symbol):
+    mul=num1*num2
+    return mul 
+def div(num1,num2,symbol):
+    div=num1/num2
+    return div
+num1=int(input("enter a num1"))
+num2=int(input("enter a num2"))
+symbol=(input("enter a symbol"))
+if symbol=="+":
+    print(add(num1,num2,symbol))
+elif symbol=="-":
+    print(sub(num1,num2, symbol))
+elif symbol=="*":
+    print(mul(num1,num2,symbol))
+elif symbol=="/":
+    print(div(num1,num2,symbol))
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
